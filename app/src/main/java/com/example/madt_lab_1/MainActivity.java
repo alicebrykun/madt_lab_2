@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         this.tvMain = findViewById(R.id.tvMainLabel);
     }
 
-    public void btnChangeClick (View view) {
+    public void onBtnChangeTextClick (View view) {
         this.tvMain.setText("The 1st changes! Hooray!!!");
     }
 }
